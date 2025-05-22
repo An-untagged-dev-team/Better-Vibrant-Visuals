@@ -9,7 +9,7 @@ $form.StartPosition = "CenterScreen"
 
 # Label
 $label = New-Object System.Windows.Forms.Label
-$label.Text = "-----Welcome to the Installer!-----   -----Download here the first vibrant visuals mod-----"
+$label.Text = "-----Welcome to the Installer! Download here the first vibrant visuals mod-----"
 $label.Size = New-Object System.Drawing.Size(350,20)
 $label.Location = New-Object System.Drawing.Point(20,20)
 $form.Controls.Add($label)
