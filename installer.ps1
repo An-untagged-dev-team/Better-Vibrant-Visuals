@@ -44,7 +44,7 @@ $installButton.Add_Click({
         Start-Sleep -Milliseconds 300
         $form.Refresh()
     }
-    [System.Windows.Forms.MessageBox]::Show("Installation Complete!","Done",[System.Windows.Forms.MessageBoxButtons]::OK,[System.Windows.Forms.MessageBoxIcon]::Information)
+    [System.Windows.Forms.MessageBox]::Show("Installation Complete ! Now, enjoy the enhanced vibrant visuals","Finished",[System.Windows.Forms.MessageBoxButtons]::OK,[System.Windows.Forms.MessageBoxIcon]::Information)
     $form.Close()
 })
 
