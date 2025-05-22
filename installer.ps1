@@ -18,7 +18,7 @@ $form.Controls.Add($label)
 $label = New-Object System.Windows.Forms.Label
 $label.Text = "author : K3013"
 $label.Size = New-Object System.Drawing.Size(350,20)
-$label.Location = New-Object System.Drawing.Point(20,16)
+$label.Location = New-Object System.Drawing.Point(20,19)
 $form.Controls.Add($label)
 
 # Progress bar
